@@ -1,0 +1,11 @@
+name: dto.chat
+schema:
+  type: object
+  required:
+    - id
+    - title
+    - isClosed
+    - chatType
+  optional:
+    - avatarUrl
+    - lastMessage

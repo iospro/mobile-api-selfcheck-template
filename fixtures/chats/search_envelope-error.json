@@ -1,0 +1,9 @@
+{
+  "data": null,
+  "errors": [
+    {
+      "errorType": "AccessDenied",
+      "message": "example invalid token"
+    }
+  ]
+}

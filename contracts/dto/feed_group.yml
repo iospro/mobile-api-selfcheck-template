@@ -1,0 +1,8 @@
+name: dto.feed_group
+schema:
+  type: object
+  required:
+    - task
+    - comments
+  optional:
+    - users

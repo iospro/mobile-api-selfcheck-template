@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "task": {
+        "id": 1001,
+        "title": "Demo task",
+        "attributes": {
+          "subcatName": null,
+          "style": {
+            "color": "#3B82F6",
+            "icon": "task"
+          }
+        }
+      },
+      "comments": [
+        {
+          "id": 7001,
+          "type": "comment",
+          "text": "Selfcheck report attached",
+          "isRead": true,
+          "author": {
+            "id": 501,
+            "name": "Demo User"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

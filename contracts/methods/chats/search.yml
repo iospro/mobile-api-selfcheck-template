@@ -1,0 +1,8 @@
+name: methods.chats.search
+request:
+  method: GET
+  path: /api/chats
+response:
+  uses_envelope: true
+  payload:
+    ref: dto/chat

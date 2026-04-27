@@ -1,0 +1,9 @@
+{
+  "data": null,
+  "errors": [
+    {
+      "errorType": "ValidationError",
+      "message": "example bad feed filter"
+    }
+  ]
+}

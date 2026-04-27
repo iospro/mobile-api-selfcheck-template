@@ -1,0 +1,8 @@
+name: methods.feed.list
+request:
+  method: POST
+  path: /api/feed
+response:
+  uses_envelope: true
+  payload:
+    ref: dto/feed_group

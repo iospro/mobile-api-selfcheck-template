@@ -1,0 +1,14 @@
+report:
+  path: reports/latest.md
+
+domains:
+  chats:
+    query:
+      limit: 30
+      offset: 0
+      queryString: demo
+
+  feed:
+    body:
+      limit: 20
+      offset: 0

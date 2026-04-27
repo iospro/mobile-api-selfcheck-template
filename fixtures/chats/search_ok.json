@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "title": "Demo task chat",
+      "chatType": "task",
+      "isClosed": false,
+      "avatarUrl": null,
+      "lastMessage": {
+        "id": 9001,
+        "text": "Please check the report",
+        "author": {
+          "id": 501,
+          "name": "Demo User"
+        }
+      }
+    },
+    {
+      "id": 102,
+      "title": "Project group",
+      "chatType": "group",
+      "isClosed": false,
+      "avatarUrl": "https://example.test/avatar.png",
+      "lastMessage": null
+    }
+  ],
+  "errors": []
+}

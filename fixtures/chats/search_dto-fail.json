@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "title": "Demo task chat",
+      "chatType": "task",
+      "isClosed": false,
+      "avatarUrl": null,
+      "lastMessage": {
+        "id": 9001,
+        "text": "Please check the report",
+        "author": {
+          "id": null,
+          "name": "Demo User"
+        }
+      }
+    }
+  ],
+  "errors": []
+}
