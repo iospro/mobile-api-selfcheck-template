@@ -12,6 +12,10 @@ run_all.py
   -> ConsoleReporter + MarkdownReporter
 ```
 
+`test-configs/default.yml` intentionally keeps production-like keys
+(`base_url`, `pat_token_alias`) for shape parity, even though offline transport
+does not use network/auth.
+
 The important part is that transport is replaceable. This demo reads fixtures,
 but the same domain validators can be used with a real HTTP transport.
 

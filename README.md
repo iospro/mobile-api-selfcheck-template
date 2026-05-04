@@ -14,6 +14,10 @@ The template shows the same idea as the production `api-tests` project:
 
 No network, tokens, product URLs or real customer data are used.
 
+Note: `test-configs/default.yml` includes `base_url` and `pat_token_alias`
+for config parity with production. In this offline template they are placeholders
+and are not used for network/auth calls.
+
 ## Structure
 
 ```text
@@ -56,6 +60,12 @@ python3 run_all.py --test-config default --scenario ok --report reports/ok.md
 
 - `Chats`: `GET /api/chats` with `limit`, `offset`, `queryString`.
 - `Feed`: `POST /api/feed` with simple body (`limit`, `offset`).
+
+## Config parity with production
+
+- `base_url` — placeholder (`https://yoursite.ru`) for parity with real project config shape.
+- `pat_token_alias` — placeholder alias (`YOURSITE_PAT_TOKEN`) for parity with PAT lookup flow.
+- `report.path` and `domains.*` are used by the offline run.
 
 See:
 
