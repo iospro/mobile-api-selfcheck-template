@@ -1,3 +1,6 @@
+base_url: https://yoursite.ru
+pat_token_alias: YOURSITE_PAT_TOKEN
+
 report:
   path: reports/latest.md
 
